@@ -12,11 +12,10 @@ import org.apache.maven.project.MavenProject;
 import java.util.List;
 import static org.apache.maven.plugins.annotations.LifecyclePhase.INSTALL;
 
-@Mojo(name = "nofork-probe-attachments", defaultPhase = INSTALL)
-public class ProjectAttachmentsProbe extends AbstractMojo {
+public abstract class ProjectAttachmentsProbe extends AbstractMojo {
 
     @Component
-    private MavenProject project;
+    protected MavenProject project;
 
     @Parameter(defaultValue = "${executedProject}")
     private MavenProject executedProject;
@@ -31,6 +30,7 @@ public class ProjectAttachmentsProbe extends AbstractMojo {
         if(executedProject != null) {
             executedProjectAttachedArtifacts = executedProject.getAttachedArtifacts();
         }
+        verify();
     }
 
     public List<Artifact> getProjectAttachedArtifacts() {
@@ -40,4 +40,6 @@ public class ProjectAttachmentsProbe extends AbstractMojo {
     public List<Artifact> getExecutedProjectAttachedArtifacts() {
         return executedProjectAttachedArtifacts;
     }
+
+    public abstract void verify() throws MojoExecutionException, MojoFailureException;
 }

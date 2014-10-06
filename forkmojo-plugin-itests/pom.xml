@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>forkmojo-maven-plugin-parent</artifactId>
+        <groupId>io.github.zenlambda.examples.maven</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>forkmojo-plugin-itests</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.zenlambda.examples.maven</groupId>
+            <artifactId>forkmojo-maven-plugin</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.shared</groupId>
+            <artifactId>maven-verifier</artifactId>
+            <version>1.5</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

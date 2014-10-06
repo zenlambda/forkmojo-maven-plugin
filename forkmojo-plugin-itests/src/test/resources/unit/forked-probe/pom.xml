@@ -16,7 +16,7 @@
                 <artifactId>forkmojo-maven-plugin</artifactId>
 
                 <configuration>
-                    <project implementation="io.github.zenlambda.examples.maven.stubs.ForkedMojoProjectStub"/>
+                    <project implementation="ForkedMojoProjectStub"/>
                 </configuration>
             </plugin>
         </plugins>

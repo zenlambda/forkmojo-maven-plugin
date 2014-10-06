@@ -1,0 +1,81 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building forkmojo-maven-plugin-itest 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ forkmojo-maven-plugin-itest ---
+[INFO] Deleting /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ forkmojo-maven-plugin-itest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ forkmojo-maven-plugin-itest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ forkmojo-maven-plugin-itest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ forkmojo-maven-plugin-itest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ forkmojo-maven-plugin-itest ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ forkmojo-maven-plugin-itest ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/target/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- forkmojo-maven-plugin:0.0.1-SNAPSHOT:attach-dummy-zip (attach-dummy) @ forkmojo-maven-plugin-itest ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ forkmojo-maven-plugin-itest ---
+[INFO] Installing /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/target/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.jar to /home/fwilson/.m2/repository/io/github/zenlambda/examples/maven/itests/forkmojo-maven-plugin-itest/0.0.1-SNAPSHOT/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.jar
+[INFO] Installing /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/pom.xml to /home/fwilson/.m2/repository/io/github/zenlambda/examples/maven/itests/forkmojo-maven-plugin-itest/0.0.1-SNAPSHOT/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.pom
+[INFO] Installing /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/target/classes/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.zip to /home/fwilson/.m2/repository/io/github/zenlambda/examples/maven/itests/forkmojo-maven-plugin-itest/0.0.1-SNAPSHOT/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.zip
+[INFO] 
+[INFO] >>> forkmojo-maven-plugin:0.0.1-SNAPSHOT:exec-verify-attachments (0-verify-exec) > install @ forkmojo-maven-plugin-itest >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ forkmojo-maven-plugin-itest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ forkmojo-maven-plugin-itest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ forkmojo-maven-plugin-itest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ forkmojo-maven-plugin-itest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ forkmojo-maven-plugin-itest ---
+[INFO] No tests to run.
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ forkmojo-maven-plugin-itest ---
+[INFO] 
+[INFO] --- forkmojo-maven-plugin:0.0.1-SNAPSHOT:attach-dummy-zip (attach-dummy) @ forkmojo-maven-plugin-itest ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ forkmojo-maven-plugin-itest ---
+[INFO] Installing /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/target/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.jar to /home/fwilson/.m2/repository/io/github/zenlambda/examples/maven/itests/forkmojo-maven-plugin-itest/0.0.1-SNAPSHOT/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.jar
+[INFO] Installing /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/pom.xml to /home/fwilson/.m2/repository/io/github/zenlambda/examples/maven/itests/forkmojo-maven-plugin-itest/0.0.1-SNAPSHOT/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.pom
+[INFO] Installing /home/fwilson/Projects/OSS/forkmojo-maven-plugin/forkmojo-plugin-itests/src/test/resources/it/forked-test/target/classes/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.zip to /home/fwilson/.m2/repository/io/github/zenlambda/examples/maven/itests/forkmojo-maven-plugin-itest/0.0.1-SNAPSHOT/forkmojo-maven-plugin-itest-0.0.1-SNAPSHOT.zip
+[INFO] 
+[INFO] --- forkmojo-maven-plugin:0.0.1-SNAPSHOT:verify-attachments (1-verify-nofork) @ forkmojo-maven-plugin-itest ---
+[INFO] 
+[INFO] <<< forkmojo-maven-plugin:0.0.1-SNAPSHOT:exec-verify-attachments (0-verify-exec) < install @ forkmojo-maven-plugin-itest <<<
+[INFO] 
+[INFO] --- forkmojo-maven-plugin:0.0.1-SNAPSHOT:exec-verify-attachments (0-verify-exec) @ forkmojo-maven-plugin-itest ---
+[INFO] 
+[INFO] --- forkmojo-maven-plugin:0.0.1-SNAPSHOT:verify-attachments (1-verify-nofork) @ forkmojo-maven-plugin-itest ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.867 s
+[INFO] Finished at: 2014-10-06T12:10:40+01:00
+[INFO] Final Memory: 10M/239M
+[INFO] ------------------------------------------------------------------------

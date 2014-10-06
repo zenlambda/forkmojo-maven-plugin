@@ -17,7 +17,7 @@ import java.util.zip.ZipOutputStream;
 
 import static org.apache.maven.plugins.annotations.LifecyclePhase.PACKAGE;
 
-@Mojo(name = "foobar", defaultPhase = PACKAGE)
+@Mojo(name = "attach-dummy-zip", defaultPhase = PACKAGE)
 public class AttachDummyZipMojo extends AbstractMojo {
 
     @Component
